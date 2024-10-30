@@ -1,6 +1,6 @@
 import './Footer.css';
 import { Container, Row, Col } from "react-bootstrap";
-import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
+//import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
 import logo from '/assets/images/black.png';
 
 export default function Footer() {
