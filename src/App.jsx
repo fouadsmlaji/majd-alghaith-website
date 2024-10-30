@@ -29,7 +29,7 @@ function App() {
         <Gallery/>
       </ScrollProvider>
      <Proposal/>
-     <Footer/>
+    
     </>
   )
 }
