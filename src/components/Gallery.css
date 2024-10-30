@@ -1,0 +1,29 @@
+.gallerySection h1{
+    font-size: 4rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    font-family: "Poppins", sans-serif !important;
+}
+
+.gallerySection p{
+    padding-bottom: 40px;
+}
+
+.deletedGrid{
+    display: block;
+}
+
+@media screen and (max-width:480px) {
+    .gallerySection h1{
+        font-size: 2.5rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        padding-bottom: 20px;
+        font-family: "Poppins", sans-serif !important;
+    }
+
+    .deletedGrid{
+        display: none;
+    }
+}

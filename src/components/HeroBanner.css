@@ -1,0 +1,128 @@
+
+.text {
+    height: 140vh;
+    background-color: #ffffff;;
+    padding-top: 70px;
+}
+
+.between-text {
+    display: flex;
+    font-family: "Poppins", sans-serif !important;
+    color: rgb(0, 0, 0);
+    padding: 40px 0px;
+    margin-top: 0px;
+    font-size: 2.3rem;
+    font-weight: 200 ;
+    max-width: 650px ;
+    position: relative;
+    z-index: 0;
+    text-align: start;
+}
+
+.between-text h2{
+   font-weight: 300 !important;
+
+}
+
+
+.between-text2 {
+    display: flex;
+    align-items: end;
+    font-family: "Poppins", sans-serif !important;
+    color: rgb(0, 0, 0);
+    padding: 40px;
+    font-size: 1rem;
+    font-weight: 200;
+}
+
+.between-text2 p{
+
+    max-width: 400px ;
+  
+
+}
+
+
+.ourWedding{
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 120px;
+}
+
+.ourWedding h1{
+   font-size: 5rem;
+   max-width: 700px;
+   font-family: "Poppins", sans-serif !important;
+   font-weight: 200 !important;
+
+}
+
+.ourWedding span{
+    font-family: "Caveat", cursive !important;
+    font-size: 7rem;
+    font-weight: 200 !important;
+
+ }
+
+.fixed-text{
+    width: 100%;
+     display: flex;
+      align-items: center;
+       height: 100%;
+        justify-content: center;
+}
+
+.fixed-text span{
+    font-size: 4rem;
+     color: rgb(0, 0, 0);
+      font-weight: 300;
+       max-width: 700px;
+        text-align: center;
+        font-family: "Caveat", cursive;
+}
+
+@media screen and (max-width:480px) {
+    .text {
+        height: 100%;
+        background-color: #ffffff;;
+        padding-top: 70px;
+        padding-bottom: 120px;
+    }
+
+    .between-text h2{
+        font-weight: 300 !important;
+        font-size: 1.3rem;
+        max-width: 250px ;
+     }
+
+     .between-text {
+      width: 100%;
+    }
+
+    .between-text2 p{
+        text-align: end;
+        font-size: 0.9rem !important;
+    }
+
+    .between-text2 {
+    padding-top: 60px;
+    }
+
+    .ourWedding{
+        padding-top: 60px;
+    }
+
+    .ourWedding h1{
+        font-size: 2.5rem;
+       padding: 0px 20px;
+     
+     }
+     
+     .ourWedding span{
+        font-family: "Caveat", cursive !important;
+        font-size: 4rem;
+        font-weight: 200 !important;
+    
+     }
+}

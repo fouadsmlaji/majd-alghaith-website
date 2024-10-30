@@ -1,0 +1,109 @@
+
+.header{
+
+    font-family: "Poppins", sans-serif !important;
+}
+
+
+.navbar-brand {
+    font-weight: 300;
+    transition: all 0.5s;
+    font-size: 1.6rem;
+    color: black;
+    margin: 0px;
+}
+
+.navbar-brand:hover{
+
+    color: rgb(255, 255, 255);
+    
+}
+
+.nav-link{
+    font-weight: 300;
+    transition: all 0.5s;
+    font-size: 1.3rem;
+    color: black;
+    transition: all 0.3s ease-in-out;
+    border: 1px #ffffff solid;
+}
+
+.nav-link:hover{
+    color: black;
+     border: 1px black solid;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%; 
+    transition: top 0.3s, backdrop-filter 0.3s, background-color 0.3s;
+    z-index: 1030; /* Ensure the header is above other content */
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px rgb(201, 201, 201);
+}
+
+.header-logo{
+    transition: all 0.5s;
+    height: 70px !important;
+    filter:invert();
+}
+
+.btn1{
+    border: 1px solid black;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.853);
+}
+
+.btn1:hover{
+    border: 1px solid black;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.853);
+}
+
+.navbar-toggler{
+    background-color: rgb(0, 0, 0);
+    color: white !important;
+}
+
+.navbar-toggler-icon{
+    background-color: black;
+}
+
+.navbar-collapse{
+    transition: all 0.3s ease-in-out;
+}
+
+
+@media screen and (max-width: 480px) {   
+
+    .flexCol{
+        flex-direction: column;
+    }
+   
+    .spaceDiv{
+        justify-content: space-between !important;
+        width: 100% !important;
+    }
+
+    .header-logo {
+      height: 50px !important;
+    }
+
+    .navbar-brand {
+        font-weight: 300;
+        transition: all 0.5s;
+        font-size: 1.1rem;
+        color: black;
+    
+    }
+
+    .nav-link{
+        font-size: 1.1rem;
+       
+  }
+
+}
+

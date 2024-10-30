@@ -1,0 +1,159 @@
+.categorySection {
+
+    transition: all 0.3s ease-in-out;
+    padding-bottom: 120px;
+}
+
+.categorySection h3 {
+    color: black;
+    font-family: "Poppins", sans-serif !important;
+    font-weight: 300;
+    font-size: 1.7rem;
+    padding-block: 20px;
+}
+
+.catDiv1,
+.catDiv2,
+.catDiv3,
+.catDiv4 {
+    width: 100%;
+    display: flex;
+}
+
+.catDiv1 {
+    margin-left: 50px;
+}
+
+.catDiv2 {
+    justify-content: end;
+    margin-top: -150px;
+}
+
+.catDiv3 {
+    justify-content: center;
+    margin-top: -70px;
+}
+
+.catImage {
+    object-fit: cover;
+    height: 400px;
+    width: 300px;
+    transition: opacity 0.3s ease-in-out; /* Smooth transition for image */
+}
+
+.catVideo {
+    object-fit: cover;
+    height: 400px;
+    width: 100%; 
+    display: none; /* Initially hide the video */
+    transition: opacity 0.3s ease-in-out; /* Smooth transition for video */
+}
+
+.catSpan {
+    font-size: 3rem;
+    font-weight: 500;
+    position: absolute;
+    left: 0%;
+    max-width: 320px;
+    font-family: "Caveat", cursive;
+}
+
+.catSpan2 {
+    font-size: 3rem;
+    font-weight: 500;
+    position: absolute;
+    left: 35%;
+    top: 30%;
+    max-width: 320px;
+    font-family: "Caveat", cursive;
+}
+
+.catCard {
+    padding: 10px;
+    background-color: white;
+    border: rgb(255, 255, 255) 1px solid;
+    box-shadow: 1px 1px 100px rgb(249, 239, 171);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    position: relative; /* Ensure video overlay works well */
+    
+}
+
+.catCard:hover {
+    transform: scale(1.05);
+}
+
+.catCard:hover .catImage {
+    display: none;
+}
+
+.catCard:hover .catVideo {
+    display: flex; /* Show the video on hover */
+    opacity: 1; /* Fade the video in */
+}
+
+.catVideo {
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    z-index: 1;
+    transition: all 0.3s ease-in-out;
+}
+
+@media screen and (max-width:480px) {
+
+    .catImage {
+        object-fit: cover;
+        height: 350px;
+        width: 250px;
+        transition: opacity 0.3s ease-in-out; /* Smooth transition for image */
+    }
+
+    .catDiv1,
+    .catDiv2,
+    .catDiv3,
+    .catDiv4 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+    .catDiv1 {
+        margin-left: 0px;
+    } 
+
+    .catDiv2 {
+
+        margin-top: 250px;
+    }
+
+    .catDiv3 {
+        justify-content: center;
+        margin-top: 150px;
+    }
+
+    .catSpan {
+        font-size: 3rem;
+        font-weight: 500;
+        position: absolute;
+        left: 0%;
+        max-width: 320px;
+        font-family: "Caveat", cursive;
+        display: none;
+    }
+    
+    .catSpan2 {
+        font-size: 3rem;
+        font-weight: 500;
+        position: absolute;
+        left: 35%;
+        top: 30%;
+        max-width: 320px;
+        font-family: "Caveat", cursive;
+        display: none;
+    }
+
+}
